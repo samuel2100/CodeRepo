@@ -68,9 +68,9 @@ public class ValidParenthesis {
     }
 	
 	public static void main(String[] args) {
-		assertTrue("it should be true",new ValidParenthesis().isValid(""));
-		assertFalse("it should be true",new ValidParenthesis().isValid("]"));
-		assertFalse("it should be true",new ValidParenthesis().isValid("{["));
-		assertTrue("it should be true",new ValidParenthesis().isValid("{}[]()"));
+		assertTrue("it should be true", new ValidParenthesis().isValid(""));
+		assertFalse("it should be false", new ValidParenthesis().isValid("]"));
+		assertFalse("it should be false", new ValidParenthesis().isValid("{["));
+		assertTrue("it should be true", new ValidParenthesis().isValid("{}[]()"));
 	}
 }

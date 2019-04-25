@@ -25,9 +25,9 @@ public class PalindromNumber {
     }
 	
 	public static void main(String[] args) {
-		assertTrue("it should be true",new PalindromNumber().isPalindrome(0));
-		assertTrue("it should be true",new PalindromNumber().isPalindrome(101));
-		assertFalse("it should be true",new PalindromNumber().isPalindrome(-101));
-		assertFalse("it should be true",new PalindromNumber().isPalindrome(10));
+		assertTrue("it should be true", new PalindromNumber().isPalindrome(0));
+		assertTrue("it should be true", new PalindromNumber().isPalindrome(101));
+		assertFalse("it should be False", new PalindromNumber().isPalindrome(-101));
+		assertFalse("it should be False", new PalindromNumber().isPalindrome(10));
 	}
 }
