@@ -72,5 +72,6 @@ public class ValidParenthesis {
 		assertFalse("it should be false", new ValidParenthesis().isValid("]"));
 		assertFalse("it should be false", new ValidParenthesis().isValid("{["));
 		assertTrue("it should be true", new ValidParenthesis().isValid("{}[]()"));
+		assertTrue("it should be true", new ValidParenthesis().isValid("{[]}[{()}]()"));
 	}
 }
